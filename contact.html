@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact Us</title>
+        <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="contact.css">
+        
+    </head>
+    <body>
+        <div class="contact-us">
+            <h1>Contact Us</h1><br>
+            <h3>Get in touch with the right people at H&P. We’re here to help.</h3>
+        </div>
+            <div class="box2">
+                <div class="contact-form">
+                  <h3>Send us a message</h3>
+                       <form>
+                          <div class="row50">
+                             <div class="inputbox">
+                                <input type="text" id="firstName" placeholder="First Name" onfocusout="return firstnamevalid()">
+                                <small></small>
+                             </div>
+                             <div class="inputbox">                              
+                                <input type="text" id ="lastName" placeholder="Last Name" onfocusout="return lastnamevalid()">
+                                <small></small>
+                             </div>
+                          </div>
+                          <div class="row50">
+                              <div class="inputbox">                               
+                                 <input type="number" id="phone" placeholder="Phone" onfocusout="return phonevalid()">
+                                 <small></small>
+                              </div>
+                              <div class="inputbox">                                  
+                                  <input type="email" id="email" placeholder="Email" onfocusout="return emailvalid()">
+                                  <small></small>
+                              </div>
+                           </div>
+                           <div class="row50">
+                              <div class="inputbox">                   
+                                  <input type="text" id="message" placeholder="Write your message" style="width: 80%;height: 100px;" onfocusout="return messagevalid()"> <br>
+                                   <small></small>
+                              </div>
+                            </div>
+                           <button id="btn" disabled>Sumbit</button> 
+                        </form> 
+                </div>
+                <div class="contact-info">
+                     <div class="content">
+                          <h1>Contact Information</h1>
+                          <p>Get 24x7 support</p>
+                     </div>
+                     <div class="text">
+                           <h2>Address</h2>
+                           <p>H&P company,2-block,plasa,ABCD Place,132452</p>
+                     </div>
+                     <div class="text">
+                          <h2>Email</h2>
+                           <p><a href="#">Handwritten@gmail.com</a></p>
+                     </div>
+                     <div class="text">
+                         <h2>Phone Numnber</h2>
+                         <p>1234567890</p>
+                      </div>
+                </div>
+            </div>
+       
+        <script src="contact.js"></script>
+    </body>
+</html>
